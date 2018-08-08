@@ -301,11 +301,11 @@
             position: relative;
         }
 
-        li.level0 {
+        li.level0, li {
             .lib-css(border-top, none);
         }
 
-        .level0 {
+        .level0, li {
             .lib-css(margin, @_nav-level0-item-margin);
             display: inline-block;
             position: relative;
@@ -315,7 +315,7 @@
                 padding-right: 0;
             }
 
-            > .level-top {
+            > .level-top, a {
                 .lib-css(background, @_nav-level0-item-background-color);
                 .lib-css(border, @_nav-level0-item-border);
                 .lib-css(color, @_nav-level0-item-color);

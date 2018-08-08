@@ -1,3 +1,16 @@
 <?xml version="1.0"?>
-<page layout="2columns-right" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <referenceContainer name="product.info.main">
+                <referenceContainer name="product.info.extrahint">
+                    <referenceContainer name="product.info.social">
+                        <referenceBlock name="product.info.addto">
+                            <referenceBlock name="view.addto.compare" remove="true"/>
+                        </referenceBlock>
+                    </referenceContainer>
+                </referenceContainer>
+            </referenceContainer>
+        </referenceContainer>
+    </body>
 </page>

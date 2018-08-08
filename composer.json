@@ -12,7 +12,6 @@
         "composer/composer": "@alpha"
     },
     "replace": {
-        "magento/module-admin-notification": "*",
         "magento/module-dhl": "*",
         "magento/module-fedex": "*",
         "magento/module-marketplace": "*",

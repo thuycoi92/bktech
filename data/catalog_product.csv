@@ -1,0 +1,47 @@
+sku,store_view_code,attribute_set_code,product_type,categories,product_websites,name,description,short_description,size,package,color_text,weight,product_online,tax_class_name,visibility,price,special_price,special_price_from_date,special_price_to_date,url_key,meta_title,meta_keywords,meta_description,created_at,updated_at,new_from_date,new_to_date,display_product_options_in,map_price,msrp_price,map_enabled,gift_message_available,custom_design,custom_design_from,custom_design_to,custom_layout_update,page_layout,product_options_container,msrp_display_actual_price_type,country_of_manufacture,additional_attributes,qty,out_of_stock_qty,use_config_min_qty,is_qty_decimal,allow_backorders,use_config_backorders,min_cart_qty,use_config_min_sale_qty,max_cart_qty,use_config_max_sale_qty,is_in_stock,notify_on_stock_below,use_config_notify_stock_qty,manage_stock,use_config_manage_stock,use_config_qty_increments,qty_increments,use_config_enable_qty_inc,enable_qty_increments,is_decimal_divided,website_id,deferred_stock_update,use_config_deferred_stock_update,related_skus,crosssell_skus,upsell_skus,hide_from_product_page,custom_options,bundle_price_type,bundle_sku_type,bundle_price_view,bundle_weight_type,bundle_values,associated_skus,status
+BK-LG-0001,,Default,simple,Default Category/Gloves,base,LATEX GLOVES 9 INCH,"Latex Gloves are used in cleanrooms, which are used in FAB, LCD, BLU, HDD.
+Designed to float on the tip of the finger to smooth anti-slip effect.
+High resilience up to 750%, for real feeling, suitable for use in jobs that require detailed details.
+Compliance with standards: ASTM D3578, Quality Management System: ISO9001: 2008.",Latex Gloves,S/M/L,100EA = 1BAG,,,1,Taxable Goods,"Catalog, Search",1,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,1,0,0,1,1,0,0,1,1,,1,0,1,1,0,1,0,0,1,0,1,,,,,,,,,,,,1
+BK-LG-0002,,Default,simple,Default Category/Gloves,base,LATEX GLOVES 12 INCH,"Latex Gloves are used in cleanrooms, which are used in FAB, LCD, BLU, HDD.
+Designed to float on the tip of the finger to smooth anti-slip effect.
+High resilience up to 750%, for real feeling, suitable for use in jobs that require detailed details.
+Compliance with standards: ASTM D3578, Quality Management System: ISO9001: 2008.",Latex Gloves,S/M/L,100EA = 1BAG,,,1,Taxable Goods,"Catalog, Search",1,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,1,0,0,1,1,0,0,1,1,,1,0,1,1,0,1,0,0,1,0,1,,,,,,,,,,,,1
+BK-NG-0001,,Default,simple,Default Category/Gloves,base,Nitrile Gloves 9 INCH,"Use artificial nitrile to reduce skin allergies, latex free.
+Capable of anti-static, the design of the finger tips floated smoothly anti-slip effect.
+Protect from contamination in semiconductor, electronics, biotechnology.
+Standard Clean Class: 10, 100, 1000
+Compliance with standards: ASTM D6319, Quality Management System: ISO9001: 2008.",Nitrile Gloves,S/M/L,100EA = 1BAG,,,1,Taxable Goods,"Catalog, Search",1,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,1,0,0,1,1,0,0,1,1,,1,0,1,1,0,1,0,0,1,0,1,,,,,,,,,,,,1
+BK-NG-0002,,Default,simple,Default Category/Gloves,base,Nitrile Gloves 12 INCH,"Use artificial nitrile to reduce skin allergies, latex free.
+Capable of anti-static, the design of the finger tips floated smoothly anti-slip effect.
+Protect from contamination in semiconductor, electronics, biotechnology.
+Standard Clean Class: 10, 100, 1000
+Compliance with standards: ASTM D6319, Quality Management System: ISO9001: 2008.",Nitrile Gloves,S/M/L,100EA = 1BAG,,,1,Taxable Goods,"Catalog, Search",1,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,1,0,0,1,1,0,0,1,1,,1,0,1,1,0,1,0,0,1,0,1,,,,,,,,,,,,1
+BK-PG-0001,,Default,simple,Default Category/Gloves,base,PVC GLOVES 9 INCH,"PVC are mainly made by polyvinyl chloride. Applied to cleanroom, semiconductor, hard disk manufacturing, precision optics, optical electron, biological medicine, precise instrument. 
+Curling up wirst, easy to wear
+Smooth and comfortable 
+Antipollution, anti - penetration and anti - bacterial
+Nonallergenic, powder free and low dust.",PVC Gloves,S/M/L,100EA = 1BAG,,,1,Taxable Goods,"Catalog, Search",1,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,1,0,0,1,1,0,0,1,1,,1,0,1,1,0,1,0,0,1,0,1,,,,,,,,,,,,1
+BK-PG-0002,,Default,simple,Default Category/Gloves,base,PVC GLOVES 12 INCH,"PVC are mainly made by polyvinyl chloride. Applied to cleanroom, semiconductor, hard disk manufacturing, precision optics, optical electron, biological medicine, precise instrument. 
+Curling up wirst, easy to wear
+Smooth and comfortable 
+Antipollution, anti - penetration and anti - bacterial
+Nonallergenic, powder free and low dust.",PVC Gloves,S/M/L,100EA = 1BAG,,,1,Taxable Goods,"Catalog, Search",1,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,1,0,0,1,1,0,0,1,1,,1,0,1,1,0,1,0,0,1,0,1,,,,,,,,,,,,1
+BK-PG-0011,,Default,simple,Default Category/Gloves,base,PU PALM FIT GLOVES,"Used in assembly lines (LCD assemblies, semiconductors, cars, glasses, etc.). Electrostatic precipitations in the manufacturing and inspection of sophisticated electronics.
+Using 100% nylon elastic elastic is very convenient
+Polyrethuene should have a slip-resistant function, protecting hands from external impacts.",PU Palm Fit Gloves,S/M/L,100EA = 1BAG,,,1,Taxable Goods,"Catalog, Search",1,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,1,0,0,1,1,0,0,1,1,,1,0,1,1,0,1,0,0,1,0,1,,,,,,,,,,,,1
+BK-PG-0021,,Default,simple,Default Category/Gloves,base,PU TOP FIT GLOVE,"Used in assembly lines (LCD assemblies, semiconductors, cars, glasses, etc.). Electrostatic precipitations in the manufacturing and inspection of sophisticated electronics.
+Using 100% nylon elastic elastic is very convenient
+Polyrethuene should have a slip-resistant function, protecting hands from external impacts.",PU Top Fit Gloves,S/M/L,100EA = 1BAG,,,1,Taxable Goods,"Catalog, Search",1,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,1,0,0,1,1,0,0,1,1,,1,0,1,1,0,1,0,0,1,0,1,,,,,,,,,,,,1
+BK-FC-0001,,Default,simple,Default Category/FINGER COAT - ESD FINGER COAT,base,FINGER COAT RING TYPE,"The finger coat are anti-static, which is commonly used in clean rooms.
+Ultra cleaned and super soft. It is suitable for high precision parts such as electronic components, PCB, BLU.
+The average tensile strength of this product is 24 Mpa (3480 lbs / in (2) and they have an elongation at break of 600%.",FINGER COAT,S/M/L,1440EA=1BAG,Yellow/White,,1,Taxable Goods,"Catalog, Search",1,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,1,0,0,1,1,0,0,1,1,,1,0,1,1,0,1,0,0,1,0,1,,,,,,,,,,,,1
+BK-FC-0002,,Default,simple,Default Category/FINGER COAT - ESD FINGER COAT,base,FINGER COAT CUT TYPE,"The finger coat are anti-static, which is commonly used in clean rooms.
+Ultra cleaned and super soft. It is suitable for high precision parts such as electronic components, PCB, BLU.
+The average tensile strength of this product is 24 Mpa (3480 lbs / in (2) and they have an elongation at break of 600%.",FINGER COAT ,S/M/L,1440EA=1BAG,Yellow/White,,1,Taxable Goods,"Catalog, Search",1,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,1,0,0,1,1,0,0,1,1,,1,0,1,1,0,1,0,0,1,0,1,,,,,,,,,,,,1
+BK-FC-0011,,Default,simple,Default Category/FINGER COAT - ESD FINGER COAT,base,ESD FINGER COAT RING TYPE,"The finger coat are anti-static, which is commonly used in clean rooms.
+Ultra cleaned and super soft. It is suitable for high precision parts such as electronic components, PCB, BLU.
+The average tensile strength of this product is 24 Mpa (3480 lbs / in (2) and they have an elongation at break of 600%.",ESD FINGER COAT,S/M/L,1440EA=1BAG,Black,,1,Taxable Goods,"Catalog, Search",1,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,1,0,0,1,1,0,0,1,1,,1,0,1,1,0,1,0,0,1,0,1,,,,,,,,,,,,1
+BK-FC-0012,,Default,simple,Default Category/FINGER COAT - ESD FINGER COAT,base,ESD FINGER COAT CUT TYPE,"The finger coat are anti-static, which is commonly used in clean rooms.
+Ultra cleaned and super soft. It is suitable for high precision parts such as electronic components, PCB, BLU.
+The average tensile strength of this product is 24 Mpa (3480 lbs / in (2) and they have an elongation at break of 600%.",ESD FINGER COAT,S/M/L,1440EA=1BAG,Black,,1,Taxable Goods,"Catalog, Search",1,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,1,0,0,1,1,0,0,1,1,,1,0,1,1,0,1,0,0,1,0,1,,,,,,,,,,,,1

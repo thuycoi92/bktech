@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a1f932a7d350f52a73ba4bb074c63fd9",
+    "content-hash": "bb4bb7a84d7ef5e61a59b7bb9f4933f4",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -1449,6 +1449,39 @@
                 "AFL-3.0"
             ],
             "description": "Magento 2 Base (Community Edition)"
+        },
+        {
+            "name": "magento/module-admin-notification",
+            "version": "100.2.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-admin-notification/magento-module-admin-notification-100.2.3.0.zip",
+                "reference": null,
+                "shasum": "a29fc9f8058804f554185c3a54e6c3e0cb4ffe7a"
+            },
+            "require": {
+                "lib-libxml": "*",
+                "magento/framework": "101.0.*",
+                "magento/module-backend": "100.2.*",
+                "magento/module-media-storage": "100.2.*",
+                "magento/module-store": "100.2.*",
+                "magento/module-ui": "101.0.*",
+                "php": "~7.0.13|~7.1.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\AdminNotification\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A"
         },
         {
             "name": "magento/module-advanced-pricing-import-export",

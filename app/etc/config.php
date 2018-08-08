@@ -1,9 +1,10 @@
 <?php
 return [
     'modules' => [
-        'Magento_AdvancedPricingImportExport' => 1,
         'Magento_Store' => 1,
+        'Magento_AdvancedPricingImportExport' => 1,
         'Magento_Directory' => 1,
+        'Magento_Backend' => 1,
         'Magento_Backup' => 1,
         'Magento_Theme' => 1,
         'Magento_BundleImportExport' => 1,
@@ -11,11 +12,11 @@ return [
         'Magento_Eav' => 1,
         'Magento_CatalogImportExport' => 1,
         'Magento_Customer' => 1,
+        'Magento_AdminNotification' => 1,
         'Magento_Indexer' => 1,
         'Magento_Cms' => 1,
-        'Magento_Catalog' => 1,
         'Magento_Rule' => 1,
-        'Magento_CatalogInventory' => 1,
+        'Magento_Catalog' => 1,
         'Magento_Payment' => 1,
         'Magento_Bundle' => 1,
         'Magento_CmsUrlRewrite' => 1,
@@ -31,7 +32,7 @@ return [
         'Magento_CustomerImportExport' => 1,
         'Magento_Deploy' => 1,
         'Magento_Developer' => 1,
-        'Magento_Backend' => 1,
+        'Magento_Authorization' => 1,
         'Magento_Downloadable' => 1,
         'Magento_ImportExport' => 1,
         'Magento_CatalogRule' => 1,
@@ -39,7 +40,7 @@ return [
         'Magento_Sales' => 1,
         'Magento_GoogleAnalytics' => 1,
         'Magento_GroupedImportExport' => 1,
-        'Magento_GroupedProduct' => 1,
+        'Magento_CatalogInventory' => 1,
         'Magento_DownloadableImportExport' => 1,
         'Magento_Search' => 1,
         'Magento_InstantPurchase' => 1,
@@ -72,9 +73,9 @@ return [
         'Magento_Integration' => 1,
         'Magento_Ui' => 1,
         'Magento_Sitemap' => 1,
-        'Magento_Authorization' => 1,
-        'Magento_Tax' => 1,
         'Magento_CatalogUrlRewrite' => 1,
+        'Magento_Tax' => 1,
+        'Magento_GroupedProduct' => 1,
         'Magento_Translation' => 1,
         'Magento_Shipping' => 1,
         'Magento_UrlRewrite' => 1,
@@ -85,6 +86,11 @@ return [
         'Magento_Webapi' => 1,
         'Magento_CurrencySymbol' => 1,
         'Magento_Wishlist' => 1,
+        'Swissup_Core' => 1,
+        'Swissup_FontAwesome' => 1,
+        'Swissup_SlickCarousel' => 1,
+        'Swissup_ThemeEditor' => 1,
+        'Swissup_ThemeEditorSwissupAbsolute' => 1
     ],
     'system' => [
         'default' => [
@@ -100,9 +106,9 @@ return [
                     'Magento_ConfigurableProductSales' => '1',
                     'Magento_SalesInventory' => '1',
                     'Magento_SalesRule' => '1',
-                    'Magento_Review' => '1',
-                ],
-            ],
-        ],
-    ],
+                    'Magento_Review' => '1'
+                ]
+            ]
+        ]
+    ]
 ];

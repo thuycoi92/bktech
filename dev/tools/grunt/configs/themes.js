@@ -41,6 +41,19 @@ module.exports = {
         ],
         dsl: 'less'
     },
+    absolute: {
+        area: 'frontend',
+        name: 'Swissup/absolute',
+        locale: 'vi_VN',
+        files: [
+            'css/styles-m',
+            'css/styles-l',
+            'css/print',
+            'css/email',
+            'css/email-inline'
+        ],
+        dsl: 'less'
+    },
     backend: {
         area: 'adminhtml',
         name: 'Magento/backend',
