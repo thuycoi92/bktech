@@ -86,11 +86,16 @@ return [
         'Magento_Webapi' => 1,
         'Magento_CurrencySymbol' => 1,
         'Magento_Wishlist' => 1,
+        'Mageplaza_Core' => 1,
+        'Mageplaza_Blog' => 1,
         'Swissup_Core' => 1,
         'Swissup_FontAwesome' => 1,
         'Swissup_SlickCarousel' => 1,
         'Swissup_ThemeEditor' => 1,
-        'Swissup_ThemeEditorSwissupAbsolute' => 1
+        'Swissup_ThemeEditorSwissupAbsolute' => 1,
+        'Ves_All' => 1,
+        'Ves_Productlist' => 1,
+        'Ves_Setup' => 1
     ],
     'system' => [
         'default' => [

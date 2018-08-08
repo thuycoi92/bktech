@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_img_width" xsi:type="number">157</argument>
+                <argument name="logo_img_height" xsi:type="number">46</argument>
+            </arguments>
+        </referenceBlock>
+        
+        <referenceContainer name="header.container">
+            <container name="ves-header" as="ves-header" label="Ves Header Container" htmlTag="div" htmlClass="ves-header" before="-"/>
+        </referenceContainer>
+
+        <referenceContainer name="ves-header">
+            <container name="custom-logo" as="custom-logo" label="Custom Logo Container" htmlTag="div" htmlClass="ves-custom-logo grid-02" before="-"/>
+            <container name="custom-menu" as="custom-menu" label="Custom Menu Container" htmlTag="div" htmlClass="ves-custom-menu grid-07" after="custom-logo"/>
+            <container name="custom-group-icon" as="custom-group-icon" label="Custom Group Icon Container" htmlTag="div" htmlClass="ves-custom-group grid-03" after="custom-menu"/>
+        </referenceContainer>
+
+        <move element="logo" as="logo" destination="custom-logo"/>
+        <move element="navigation.sections" as="catalog.topnav" destination="custom-menu" />
+        <move element="header.panel" destination="custom-group-icon"/>
+
+        <referenceContainer name="custom-group-icon">
+            <container name="top_search" as="top_search" label="Search group" htmlTag="div" htmlClass="top_search_group" before="-">
+                <block class="Magento\Framework\View\Element\Template" name="top_search_group" as="top_search_group" template="Magento_Theme::html/search-icon-block.phtml"/>
+            </container>
+
+            <container name="account_login" as="account_login" label="Account group" htmlTag="div" htmlClass="account_login_group" after="top_search">
+                <block class="Magento\Framework\View\Element\Template" name="account_login_group" as="account_login_group" template="Magento_Theme::html/account-icon-block.phtml">
+                    <!-- <block class="Magento\Framework\View\Element\Html\Links" name="top.links1" as="top.links1">
+                        <arguments>
+                            <argument name="css_class" xsi:type="string">header links</argument>
+                        </arguments>
+                    </block> -->
+                </block>
+            </container>
+
+            <container name="setting_link" as="setting_link" label="Setting group" htmlTag="div" htmlClass="setting_link_group" after="account_login">
+                <block class="Magento\Framework\View\Element\Template" name="setting_link_group" as="setting_link_group" template="Magento_Theme::html/setting.phtml">
+                    <!-- TOP LINKS: settings and navigation -->
+                        <block class="Magento\Store\Block\Switcher" name="language_custom" as="language_custom" template="Magento_Store::switch/languages_custom.phtml" />
+                        <block class="Magento\Directory\Block\Currency" name="currency_custom" before="store_language_custom" as="currency_custom" template="currency_custom.phtml" />
+                    <!-- END TOP LINKS: settings and navigation -->
+                </block>
+            </container>
+            
+            <container name="minicart_top1" as="minicart_top1" label="Minicart group" htmlTag="div" htmlClass="div" after="setting_link"/>
+        </referenceContainer>
+
+        <!-- <referenceBlock name="store.links">
+            <block class="Magento\Framework\View\Element\Template" name="demo1" as="demo1" template="Magento_Theme::demo.phtml">
+        </referenceBlock> -->
+
+        <move element="top.links" destination="account_login_group" as="top.links1"/>
+        <move element="minicart" destination="minicart_top1"/>
+        <move element="top.search" destination="top_search_group" as="top_search"/>
+
+        <referenceContainer name="footer">
+            <block class="Magento\Store\Block\Switcher" name="store_switcher" as="store_switcher" after="footer_links" template="switch/stores.phtml"/>
+        </referenceContainer>
+
+        <referenceContainer name="footer-container">
+            <container name="footer-top" label="Footer Top" htmlTag="div" htmlClass="footer-top" before="-">
+                <block class="Magento\Cms\Block\Block" name="kasitoo-footer">
+                    <arguments>
+                        <argument name="block_id" xsi:type="string">kasitoo-footer</argument>
+                    </arguments>
+                </block>
+            </container>
+
+            <container name="footer-center" label="Footer Center" htmlTag="div" htmlClass="footer-center" after="footer-top">
+                <block class="Magento\Cms\Block\Block" name="kasitoo-copyright">
+                    <arguments>
+                        <argument name="block_id" xsi:type="string">kasitoo-copyright</argument>
+                    </arguments>
+                </block>
+            </container>
+
+            <container name="footer" as="footer" label="Page Footer" htmlTag="div" htmlClass="footer">
+                <!--<remove name="form.subscribe"/>-->
+                <block class="Magento\Theme\Block\Html\Footer" name="copyright" template="html/copyright.phtml"/>
+                <block class="Magento\Framework\View\Element\Template" name="report.bugs" template="Magento_Theme::html/bugreport.phtml" />
+            </container>
+
+        </referenceContainer>
+
+        <!--<referenceBlock name="navigation.sections">-->
+            <!--<block class="Magento\Framework\View\Element\Template" name="store.links" group="navigation-sections" template="Magento_Theme::demo.phtml">-->
+                    <!--<arguments>-->
+                        <!--<argument name="title" translate="true" xsi:type="string">Account</argument>-->
+                    <!--</arguments>-->
+                <!--</block>-->
+        <!--</referenceBlock>-->
+        <referenceBlock name="report.bugs" remove="true"/>
+        <referenceBlock name="copyright" remove="true"/>
+    </body>
+</page>

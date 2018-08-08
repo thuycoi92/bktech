@@ -9,7 +9,8 @@
     ],
     "require": {
         "magento/product-community-edition": "2.2.5",
-        "composer/composer": "@alpha"
+        "composer/composer": "@alpha",
+        "symfony/var-dumper": "^3.2"
     },
     "replace": {
         "magento/module-dhl": "*",

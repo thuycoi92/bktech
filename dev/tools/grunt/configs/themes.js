@@ -54,6 +54,19 @@ module.exports = {
         ],
         dsl: 'less'
     },
+    kasitoo: {
+        area: 'frontend',
+        name: 'Venustheme/kasitoo',
+        locale: 'vi_VN',
+        files: [
+            'css/styles-m',
+            'css/styles-l',
+            'css/print',
+            'css/email',
+            'css/email-inline'
+        ],
+        dsl: 'less'
+    },
     backend: {
         area: 'adminhtml',
         name: 'Magento/backend',
