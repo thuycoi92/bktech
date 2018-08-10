@@ -95,7 +95,8 @@ return [
         'Swissup_ThemeEditorSwissupAbsolute' => 1,
         'Ves_All' => 1,
         'Ves_Productlist' => 1,
-        'Ves_Setup' => 1
+        'Ves_Setup' => 1,
+        'Bktech_Frontend' => 1,
     ],
     'system' => [
         'default' => [
