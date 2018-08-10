@@ -1,6 +1,7 @@
 <?php
 return [
     'modules' => [
+        'Bktech_Frontend' => 1,
         'Magento_Store' => 1,
         'Magento_AdvancedPricingImportExport' => 1,
         'Magento_Directory' => 1,
@@ -95,8 +96,7 @@ return [
         'Swissup_ThemeEditorSwissupAbsolute' => 1,
         'Ves_All' => 1,
         'Ves_Productlist' => 1,
-        'Ves_Setup' => 1,
-        'Bktech_Frontend' => 1,
+        'Ves_Setup' => 1
     ],
     'system' => [
         'default' => [

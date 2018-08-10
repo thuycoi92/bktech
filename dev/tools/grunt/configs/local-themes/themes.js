@@ -19,36 +19,30 @@
  *
  */
 module.exports = {
-    blank: {
+    absolute: {
         area: 'frontend',
-        name: 'Magento/blank',
-        locale: 'en_US',
+        name: 'Swissup/absolute',
+        locale: 'vi_VN',
         files: [
             'css/styles-m',
             'css/styles-l',
+            'css/print',
             'css/email',
             'css/email-inline'
         ],
         dsl: 'less'
     },
-    luma: {
+    kasitoo: {
         area: 'frontend',
-        name: 'Magento/luma',
-        locale: 'en_US',
+        name: 'Venustheme/kasitoo',
+        locale: 'vi_VN',
         files: [
             'css/styles-m',
-            'css/styles-l'
+            'css/styles-l',
+            'css/print',
+            'css/email',
+            'css/email-inline'
         ],
         dsl: 'less'
     },
-    backend: {
-        area: 'adminhtml',
-        name: 'Magento/backend',
-        locale: 'en_US',
-        files: [
-            'css/styles-old',
-            'css/styles'
-        ],
-        dsl: 'less'
-    }
 };

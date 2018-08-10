@@ -62,14 +62,16 @@
                     <arguments>
                         <argument name="label" xsi:type="string" translate="true">Home</argument>
                         <argument name="path" xsi:type="string" translate="true">/</argument>
-                        <argument name="container_class" xsi:type="string" translate="false">extra-link</argument>
+                        <argument name="class" xsi:type="string" translate="false">level-top</argument>
+                        <argument name="container_class" xsi:type="string" translate="false">level0</argument>
                     </arguments>
                 </block>
                 <block class="Bktech\Frontend\Block\LinkWithClass" name="about-us-link" after="home-link">
                     <arguments>
                         <argument name="label" xsi:type="string" translate="true">About Us</argument>
                         <argument name="path" xsi:type="string" translate="true">about-us</argument>
-                        <argument name="container_class" xsi:type="string" translate="false">extra-link</argument>
+                        <argument name="class" xsi:type="string" translate="false">level-top</argument>
+                        <argument name="container_class" xsi:type="string" translate="false">level0</argument>
                     </arguments>
                 </block>
             </container>
@@ -78,7 +80,8 @@
                     <arguments>
                         <argument name="label" xsi:type="string" translate="true">Contact Us</argument>
                         <argument name="path" xsi:type="string" translate="true">contact-us</argument>
-                        <argument name="container_class" xsi:type="string" translate="false">extra-link</argument>
+                        <argument name="class" xsi:type="string" translate="false">level-top</argument>
+                        <argument name="container_class" xsi:type="string" translate="false">level0</argument>
                     </arguments>
                 </block>
             </container>
